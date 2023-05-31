@@ -3,3 +3,29 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    height: 4em;
+}
+
+header > a {
+    flex-basis: 50%;
+    margin-left: 10em;
+}
+
+header > ul {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header > ul > * {
+    padding-left: 2em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
