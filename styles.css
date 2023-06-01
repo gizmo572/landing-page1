@@ -89,17 +89,21 @@ header + section + section > section > section > img {
     border-radius: .5em;
 }
 
-header + section + section + section {
+body > section:nth-child(4) {
     background: lightgray;
     height: 15em;
     padding: 3em 12em;
 }
 
-header + section + section + section > p {
+body > section:nth-child(4) > p {
     font-style: italic;
     font-size: x-large;
 }
 
-header + section + section + section > span {
+body > section:nth-child(4) > span {
     margin-left: 19em;
+}
+
+body > section:nth-child(5) {
+    background: rgb(59,130,246);
 }
