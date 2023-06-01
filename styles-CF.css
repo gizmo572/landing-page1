@@ -60,3 +60,17 @@ body > section:nth-child(7) > span {
     font-weight: bolder;
     color: #1F2937;
 }
+
+body > section:nth-child(8), body > section:nth-child(9) {
+    background: #E5E7EB;
+}
+
+body > section:nth-child(8) > span {
+    font-size: x-large;
+}
+
+body > section:nth-child(9) > span {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
