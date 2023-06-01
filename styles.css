@@ -106,4 +106,21 @@ body > section:nth-child(4) > span {
 
 body > section:nth-child(5) {
     background: rgb(59,130,246);
+    height: 6em;
+    margin: 3em;
+}
+
+body > section:nth-child(5) * {
+    color: white;
+}
+
+body > section:nth-child(5) > section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6em;
+}
+
+body > section:nth-child(5) button {
+    border: 1px solid white;
 }
