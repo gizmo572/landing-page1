@@ -1,20 +1,51 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
-body {
-    margin: 0 1em;
+body > *:not(header) {
+    padding: 1em 1em;
 }
 
 header {
-    height: 100px;
-    float:left;
-    width: 100vw;
-
+    height: 70px;
+    padding: 0 1em;
 }
 
 h1 {
     font-size: 4em;
     margin: 0;
     color: rgb(59,130,246);
+}
+
+header + section {
+    clear: both;
+}
+
+body > section:nth-child(2), body > section:nth-child(3), body > section:nth-child(4), body > section:nth-child(5) {
+    background: rgb(32,42,55);
+    color: white;
+}
+
+body > section:nth-child(2) > span {
+    font-size: x-large;
+}
+
+body > section:nth-child(3) > span {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+body > section:nth-child(4) {
+    color: #E5E7EB
+}
+
+body > section:nth-child(4) > span {
+    font-size: 18px;
+}
+
+body > section:nth-child(5) > span {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
