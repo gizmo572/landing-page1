@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+h1 {
+    font-size: xx-large;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -28,4 +32,40 @@ header > ul > * {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+header + section {
+    height: 15em;
+    display: flex;
+    padding: 2em 5em;
+}
+
+header + section * {
+    color: white;
+}
+
+header + section > * {
+    flex-basis: 50%;
+    margin: 0 2em;
+}
+
+header + section > * > * {
+    margin: auto;
+}
+
+header, header + section {
+    background-color: rgb(32,42,55);
+}
+
+header + section > section + section {
+    background: rgb(109, 116, 125);
+    display: flex;
+}
+
+button {
+    background-color: rgb(59,130,246);
+    padding: .25em 1em;
+    border-radius: .25em;
+    border: none;
 }
