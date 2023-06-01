@@ -49,3 +49,14 @@ body > section:nth-child(5) > span {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+body > section:nth-child(6) > span {
+    font-size: x-large;
+    color: rgb(61,131,246);
+}
+
+body > section:nth-child(7) > span {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
