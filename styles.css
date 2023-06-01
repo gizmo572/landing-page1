@@ -69,3 +69,22 @@ button {
     border-radius: .25em;
     border: none;
 }
+
+header + section + section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15em;
+    margin-top: 2em;
+}
+
+header + section + section > section {
+    margin: 2em 10em;
+    display: flex;
+}
+
+header + section + section > section > section > img {
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: .5em;
+}
